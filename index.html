@@ -1,33 +1,55 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>我的第一个网页</title>
-    <style>
-      body {
-        font-family: "Microsoft YaHei", sans-serif;
-        color: #333;
-        text-align: center;
-        margin-top: 100px;
-      }
-      p {
-        font-size: 18px;
-      }
-      button {
-        background-color: #14a1f8;
-        color: rgb(253, 253, 253);
-        border: none;
-        border-radius: 6px;
-        padding: 10px 20px;
-        cursor: pointer;
-      }
-    </style>
+    <title>China Travel Map</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>你好，世界！</h1>
-    <p>这是一个简单的 HTML 页面测试。</p>
-    <button onclick="alert('按钮被点击了！')">点我试试</button>
+    <div class="container">
+      <div class="title">
+        中国旅游景点云服务平台
+        <button>登录</button>
+      </div>
+      <div class="regions">
+        <div class="container-1">
+          <div class="item" data-province="beijing">北京市</div>
+          <div class="item">天津市</div>
+          <div class="item">上海市</div>
+          <div class="item">重庆市</div>
+          <div class="item">黑龙江省</div>
+          <div class="item">吉林省</div>
+          <div class="item">辽宁省</div>
+          <div class="item">内蒙古自治区</div>
+          <div class="item">陕西省</div>
+          <div class="item">甘肃省</div>
+          <div class="item">宁夏回族自治区</div>
+          <div class="item">青海省</div>
+          <div class="item">新疆维吾尔自治区</div>
+          <div class="item">河北省</div>
+          <div class="item">河南省</div>
+          <div class="item">山西省</div>
+          <div class="item">山东省</div>
+          <div class="item">安徽省</div>
+          <div class="item">江西省</div>
+          <div class="item">西藏自治区</div>
+          <div class="item">四川省</div>
+          <div class="item">贵州省</div>
+          <div class="item">云南省</div>
+          <div class="item">湖北省</div>
+          <div class="item">湖南省</div>
+          <div class="item">江苏省</div>
+          <div class="item">浙江省</div>
+          <div class="item">福建省</div>
+          <div class="item">广东省</div>
+          <div class="item">广西壮族自治区</div>
+          <div class="item">海南省</div>
+          <div class="item">香港特别行政区</div>
+          <div class="item">澳门特别行政区</div>
+          <div class="item">台湾省</div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
 

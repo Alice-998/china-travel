@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>OpenLayers 互动地图</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@7.4.0/ol.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ol@7.4.0/dist/ol.js"></script>
+  <script>
+    // 读取 URL 参数
+    const urlParams = new URLSearchParams(window.location.search);
+    const province = urlParams.get('province');
+
+    // 每个省份经纬度中心
+    const provinceCoords = {
+      beijing: [116.4074, 39.9042],
+      shanghai: [121.4737, 31.2304],
+      guangdong: [113.7633, 23.3790],
+      // 其他省份...
+    };
+
+    // 获取中心坐标（OpenLayers 使用 EPSG:3857 投影，需要转换）
+    const centerLonLat = provinceCoords[province] || [104.1954, 35.8617];
+    const center = ol.proj.fromLonLat(centerLonLat);
+
+    // 创建地图
+    const map = new ol.Map({
+      target: 'map',
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM()
+        })
+      ],
+      view: new ol.View({
+        center: center,
+        zoom: 6
+      })
+    });
+
+    // 添加标记
+    const marker = new ol.Feature({
+      geometry: new ol.geom.Point(center),
+      name: province
+    });
+
+    const vectorSource = new ol.source.Vector({
+      features: [marker]
+    });
+
+    const markerVectorLayer = new ol.layer.Vector({
+      source: vectorSource
+    });
+
+    map.addLayer(markerVectorLayer);
+  </script>
+</body>
+</html>
