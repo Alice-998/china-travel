@@ -6,3 +6,4 @@ items.forEach(item => {
     window.location.href = `map.html?province=${province}`;
   });
 });
+

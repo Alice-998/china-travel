@@ -21,6 +21,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/ol@7.4.0/dist/ol.js"></script>
   <script>
+
     // 读取 URL 参数
     const urlParams = new URLSearchParams(window.location.search);
     const province = urlParams.get('province');
@@ -28,9 +29,39 @@
     // 每个省份经纬度中心
     const provinceCoords = {
       beijing: [116.4074, 39.9042],
+      tianjin: [117.2009, 39.0842],
       shanghai: [121.4737, 31.2304],
+      chongqin: [106.9123, 29.4316],
+      heilongjiang: [128.0474, 47.3566],
+      jilin: [126.2629, 43.6666],
+      liaoning: [123.4294, 41.8357],
+      neimenggu: [113.9453, 44.0943],
+      shanxi_w: [109.1164, 35.6396],
+      gansu: [101.0583, 37.8099],
+      ningxia: [106.2309, 37.3096],
+      qinghai: [96.2406, 35.4199],
+      xinjiang: [84.3023, 41.7487],
+      hebei: [114.4698, 38.0355],
+      henan: [113.6142, 33.8820],
+      shanxi_e: [112.5624, 37.8735],
+      shandong: [117.0000, 36.6512],
+      anhui: [117.2849, 31.8612],
+      jiangxi: [115.9089, 27.7573],
+      xizang: [88.6630, 31.3610],
+      sichuan: [102.8055, 30.6517],
+      guizhou: [106.7092, 26.8437],
+      yunnan: [101.7070, 25.1803],
+      hubei: [112.2384, 31.2093],
+      hunan: [111.7088, 27.6959],
+      jiangsu: [119.4550, 32.9711],
+      zhejiang: [119.7889, 29.1416],
+      fujian: [117.9939, 26.0998],
       guangdong: [113.7633, 23.3790],
-      // 其他省份...
+      guangxi: [108.7882, 23.8298],
+      hainan: [109.7029, 19.2041],
+      hongkong: [114.1694, 22.3193],
+      macao: [113.5439, 22.1987],
+      taiwan: [120.8353, 23.5983]
     };
 
     // 获取中心坐标（OpenLayers 使用 EPSG:3857 投影，需要转换）
