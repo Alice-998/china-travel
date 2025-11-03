@@ -7,7 +7,7 @@ body {
   height: 100vh;
 }
 .title {
-  background-color: rgb(190, 220, 231);
+  background-color: rgb(206, 231, 190);
   height: 100px;
   display: flex;
   align-items: center;
