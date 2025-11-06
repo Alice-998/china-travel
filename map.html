@@ -77,6 +77,18 @@
         })
       });
       
+      const marker = new ol.Feature({
+        geometry: new ol.geom.Point(center),
+        name: provinceName
+      });
+      const vectorSource = new ol.source.Vector({
+        features:[marker]
+      });
+      const markerVectorLayer = new ol.layer.Vector({
+        source: vectorSource
+      });
+
+      map.addLayer(markerVectorLayer);
     </script>
   </body>
 </html>
