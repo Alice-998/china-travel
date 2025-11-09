@@ -89,6 +89,31 @@
       });
 
       map.addLayer(markerVectorLayer);
+
+      const vectorLayer = new ol.layer.Vector({
+        source: new ol.source.Vector({
+          url: `data/${provinceName}.geojson`,
+          format: new ol.format.GeoJSON()
+        }),
+        style: new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'rgba(0, 150, 255, 1)',
+            width: 2
+          }),
+          fill: new ol.style.Fill({
+            color: 'rgba(0, 150, 255, 0.2)'
+          })
+        })
+      });
+
+      map.addLayer(vectorLayer);
+
+      vectorLayer.getSource().on('change', function () {
+        if (vectorLayer.getSource().getState() === 'ready') {
+          const extent = vectorLayer.getSource().getExtent();
+          map.getView().fit(extent, { duration: 1000 });
+        }
+      });
     </script>
   </body>
 </html>
