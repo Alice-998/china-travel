@@ -90,7 +90,7 @@
 
       map.addLayer(markerVectorLayer);
 
-      const vectorLayer = new ol.layer.Vector({
+      const provinceVectorLayer = new ol.layer.Vector({
         source: new ol.source.Vector({
           url: `data/${provinceName}.geojson`,
           format: new ol.format.GeoJSON()
@@ -106,11 +106,11 @@
         })
       });
 
-      map.addLayer(vectorLayer);
+      map.addLayer(provinceVectorLayer);
 
-      vectorLayer.getSource().on('change', function () {
-        if (vectorLayer.getSource().getState() === 'ready') {
-          const extent = vectorLayer.getSource().getExtent();
+      provinceVectorLayer.getSource().on('change', function () {
+        if (provinceVectorLayer.getSource().getState() === 'ready') {
+          const extent = provinceVectorLayer.getSource().getExtent();
           map.getView().fit(extent, { duration: 1000 });
         }
       });
