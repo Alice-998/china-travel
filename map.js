@@ -71,7 +71,7 @@ map.addLayer(markerVectorLayer);
 // 添加行政区边界geojson并自动缩放
 const provinceVectorLayer = new ol.layer.Vector({
   source: new ol.source.Vector({
-    url: `data/${provinceName}.geojson`,
+    url: `data/geojson/${provinceName}.geojson`,
     format: new ol.format.GeoJSON()
   }),
   style: new ol.style.Style({
@@ -94,3 +94,37 @@ provinceVectorLayer.getSource().on('change', function () {
   }
 });
 
+
+// 添加景点点标记
+fetch(`data/json/${provinceName}.json`)
+  .then(response => response.json())
+  .then(attractions => {
+    const features = attractions.map(item => {
+      return new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat(item.coords)),
+        name: item.name
+      });
+    });
+
+    const starStyle = new ol.style.Style({
+      image: new ol.style.RegularShape({
+        points: 5,             // 五角星
+        radius1: 10,           // 外半径
+        radius2: 5,            // 内半径
+        fill: new ol.style.Fill({
+          color: 'rgba(255, 215, 0, 1)'  
+        }),
+        stroke: new ol.style.Stroke({
+          color: '#ffcc00',
+          width: 2
+        })
+      })
+    });
+
+    const vectorlayer = new ol.layer.Vector({
+      source: new ol.source.Vector({ features }),
+      style: starStyle
+    });
+
+    map.addLayer(vectorlayer);
+  });
