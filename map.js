@@ -5,7 +5,7 @@ const provinceLonLat = {
   beijing: [116.4074, 39.9042],
   tianjin: [117.2009, 39.0842],
   shanghai: [121.4737, 31.2304],
-  chongqin: [106.5120, 29.5780],
+  chongqing: [106.5120, 29.5780],
   heilongjiang: [126.6390, 45.7680],
   jilin: [125.3210, 43.8900],
   liaoning: [123.4294, 41.8357],
