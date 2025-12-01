@@ -128,3 +128,28 @@ fetch(`data/json/${provinceName}.json`)
 
     map.addLayer(vectorlayer);
   });
+
+
+// 鼠标悬停 tooltip 
+const tooltip = document.getElementById("tooltip");
+
+map.on('pointermove', (evt) => {
+  // 找鼠标下的 feature
+  const feature = map.forEachFeatureAtPixel(evt.pixel, f => f);
+
+  if (feature && feature.get('name')) {
+    // 鼠标变 pointer
+    map.getTargetElement().style.cursor = 'pointer';
+
+    // 显示 tooltip
+    tooltip.style.display = 'block';
+    tooltip.style.left = evt.pixel[0] + 12 + 'px';
+    tooltip.style.top = evt.pixel[1] + 12 + 'px';
+    tooltip.innerHTML = feature.get('name');  
+  } else {
+    // 恢复默认鼠标样式
+    map.getTargetElement().style.cursor = '';
+    tooltip.style.display = 'none';
+  }
+});
+
