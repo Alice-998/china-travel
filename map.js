@@ -41,7 +41,7 @@ const provinceLonLat = {
 const centerLonLat = provinceLonLat[provinceName] || [104.1954, 35.8617];
 const center = ol.proj.fromLonLat(centerLonLat);
 
-// 创建地图
+// 创建地图 ===============
 const map = new ol.Map({
   target: 'map',
   layers: [
@@ -55,7 +55,7 @@ const map = new ol.Map({
   })
 });
 
-// 添加省会点标记
+// 添加省会点标记 ===============
 const marker = new ol.Feature({
   geometry: new ol.geom.Point(center)
 });
@@ -68,7 +68,7 @@ const markerVectorLayer = new ol.layer.Vector({
 
 map.addLayer(markerVectorLayer);
 
-// 添加行政区边界geojson并自动缩放
+// 添加行政区边界geojson并自动缩放 ===============
 const provinceVectorLayer = new ol.layer.Vector({
   source: new ol.source.Vector({
     url: `data/geojson/${provinceName}.geojson`,
@@ -95,14 +95,15 @@ provinceVectorLayer.getSource().on('change', function () {
 });
 
 
-// 添加景点点标记
+// 添加景点点标记 ===============
 fetch(`data/json/${provinceName}.json`)
   .then(response => response.json())
   .then(attractions => {
     const features = attractions.map(item => {
       return new ol.Feature({
         geometry: new ol.geom.Point(ol.proj.fromLonLat(item.coords)),
-        name: item.name
+        name: item.name,
+        img: item.img
       });
     });
 
@@ -130,7 +131,7 @@ fetch(`data/json/${provinceName}.json`)
   });
 
 
-// 鼠标悬停 tooltip 
+// 鼠标悬停 tooltip ===============
 const tooltip = document.getElementById("tooltip");
 
 map.on('pointermove', (evt) => {
@@ -153,3 +154,36 @@ map.on('pointermove', (evt) => {
   }
 });
 
+// 鼠标点击：显示景点图片及多图切换 ===============
+const photo = document.getElementById("photo");
+const photoImg = document.getElementById("photo-img");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
+
+let currentImages = [];   // 当前景点的图片数组
+let currentIndex = 0;     // 当前显示的图片索引
+
+map.on('click', function (evt) {
+  const feature = map.forEachFeatureAtPixel(evt.pixel, f => f);
+
+  if (feature && feature.get("img")) {
+    currentImages = feature.get("img"); // 读取图片数组
+    currentIndex = 0;
+    photoImg.src = currentImages[currentIndex];
+    photo.style.display = "block";
+  }
+});
+
+// 点击上一张
+prevBtn.addEventListener('click', () => {
+  if (currentImages.length === 0) return;
+  currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+  photoImg.src = currentImages[currentIndex];
+});
+
+// 点击下一张
+nextBtn.addEventListener('click', () => {
+  if (currentImages.length === 0) return;
+  currentIndex = (currentIndex + 1) % currentImages.length;
+  photoImg.src = currentImages[currentIndex];
+});

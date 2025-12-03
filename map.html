@@ -17,8 +17,11 @@
     </style>
   </head>
   <body>
-    <div id="map"></div>
-    <div id="tooltip" style="
+
+    <div id="map-container" style="position: relative; width: 100vw; height: 100vh;">
+      <div id="map"  style="width: 100%; height: 100%;"></div>
+
+      <div id="tooltip" style="
         position: absolute;
         background: rgba(0,0,0,0.7);
         color: white;
@@ -27,7 +30,37 @@
         font-size: 12px;
         pointer-events: none;
         display: none;
-    "></div>
+      "></div>
+
+      <div id="photo" style="
+        position: absolute; 
+        top: 10px; 
+        right: 10px; 
+        width: 700px; 
+        height: 350px; 
+        border: 1px solid #ccc; 
+        background: rgba(255, 255, 255, 0.9);
+        display: none;
+        z-index: 999999;
+      ">
+
+        <img id="photo-img" src="" alt="景点" style="width:100%; height:100%; object-fit: cover;">
+
+        <button id="prev-btn" style="
+          position: absolute; 
+          bottom: 10px; 
+          left: 10px; 
+          z-index: 10000;
+        ">&lt;</button>
+        <button id="next-btn" style="
+          position: absolute; 
+          bottom: 10px; 
+          right: 10px; 
+          z-index: 10000;
+        ">&gt;</button>
+
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/ol@7.4.0/dist/ol.js"></script>
     <script src="map.js"></script>
