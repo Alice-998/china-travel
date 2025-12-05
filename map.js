@@ -128,6 +128,7 @@ fetch(`data/json/${provinceName}.json`)
     });
 
     map.addLayer(vectorlayer);
+    vectorlayer.setZIndex(2000); // 五角星图层在最上面
   });
 
 
@@ -200,9 +201,13 @@ const esriSat = new ol.layer.Tile({
   source: new ol.source.XYZ({
     url: "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
   }),
-  visible: false
+  visible: false,
 });
 map.addLayer(esriSat);
+
+provinceVectorLayer.setZIndex(1000); // 高于卫星图
+markerVectorLayer.setZIndex(1001);
+
 
 // 显示卫星图 ==========
 const btn = document.getElementById("toggle-sat");
