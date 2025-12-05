@@ -1,7 +1,7 @@
 [
-  { "name": "天津之眼", "coords": [117.1804, 39.1534] },
-  { "name": "五大道文化旅游区", "coords": [117.1971, 39.1095] },
-  { "name": "意式风情区", "coords": [117.1939, 39.1350] },
-  { "name": "天津古文化街旅游区", "coords": [117.1861, 39.1429] },
-  { "name": "天津盘山风景名胜区", "coords": [117.2823, 40.0969] }
+  { "name": "天津之眼", "coords": [117.1804, 39.1534], "img": ["images/tianjin/tianjinzhiyan1.webp", "images/tianjin/tianjinzhiyan2.webp"] },
+  { "name": "五大道文化旅游区", "coords": [117.1971, 39.1095], "img": ["images/tianjin/wudadao1.webp", "images/tianjin/wudadao2.webp", "images/tianjin/wudadao3.webp", "images/tianjin/wudadao4.webp", "images/tianjin/wudadao5.webp"] },
+  { "name": "意式风情区", "coords": [117.1939, 39.1350], "img": ["images/tianjin/italy1.webp", "images/tianjin/italy2.webp", "images/tianjin/italy3.webp", "images/tianjin/italy4.webp", "images/tianjin/italy5.webp", "images/tianjin/italy6.webp", "images/tianjin/italy7.webp"] },
+  { "name": "天津古文化街旅游区", "coords": [117.1861, 39.1429], "img": ["images/tianjin/ancientavenue1.webp", "images/tianjin/ancientavenue2.webp", "images/tianjin/ancientavenue3.webp", "images/tianjin/ancientavenue4.webp", "images/tianjin/ancientavenue5.webp", "images/tianjin/ancientavenue6.webp"] },
+  { "name": "天津盘山风景名胜区", "coords": [117.2823, 40.0969], "img": ["images/tianjin/panshan1.webp", "images/tianjin/panshan2.webp", "images/tianjin/panshan3.webp", "images/tianjin/panshan4.webp", "images/tianjin/panshan5.webp", "images/tianjin/panshan6.webp"] }
 ]
