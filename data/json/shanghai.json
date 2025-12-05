@@ -1,10 +1,10 @@
 [
-  { "name": "上海科技馆", "coords": [121.5387, 31.2218] },
-  { "name": "上海野生动物园", "coords": [121.7166, 31.0570] },
-  { "name": "上海迪士尼度假区", "coords": [121.6610, 31.1439] },
-  { "name": "东方明珠广播电视塔", "coords": [121.4952, 31.2419] },
-  { "name": "南京路步行街", "coords": [121.4751, 31.2376] },
-  { "name": "上海外滩", "coords": [121.4873, 31.2360] },
-  { "name": "静安寺", "coords": [121.4408, 31.2252] },
-  { "name": "豫园", "coords": [121.4880, 31.2289] }
+  { "name": "上海科技馆", "coords": [121.5387, 31.2218], "img": ["images/shanghai/kejiguan1.webp", "images/shanghai/kejiguan2.webp"] },
+  { "name": "上海野生动物园", "coords": [121.7166, 31.0570], "img": ["images/shanghai/zoo1.webp", "images/shanghai/zoo2.webp", "images/shanghai/zoo3.webp", "images/shanghai/zoo4.webp", "images/shanghai/zoo5.webp", "images/shanghai/zoo6.webp", "images/shanghai/zoo7.webp", "images/shanghai/zoo8.webp", "images/shanghai/zoo9.webp"] },
+  { "name": "上海迪士尼度假区", "coords": [121.6610, 31.1439], "img": ["images/shanghai/disney1.webp", "images/shanghai/disney2.webp", "images/shanghai/disney3.webp", "images/shanghai/disney4.webp", "images/shanghai/disney5.webp", "images/shanghai/disney6.webp", "images/shanghai/disney7.webp"] },
+  { "name": "东方明珠广播电视塔", "coords": [121.4952, 31.2419], "img": ["images/shanghai/mingzhu1.webp", "images/shanghai/mingzhu2.webp", "images/shanghai/mingzhu3.webp", "images/shanghai/mingzhu4.webp", "images/shanghai/mingzhu5.webp"] },
+  { "name": "南京路步行街", "coords": [121.4751, 31.2376], "img": ["images/shanghai/nanjinglu1.webp", "images/shanghai/nanjinglu2.webp", "images/shanghai/nanjinglu3.webp", "images/shanghai/nanjinglu4.webp"] },
+  { "name": "上海外滩", "coords": [121.4873, 31.2360], "img": ["images/shanghai/waitan1.webp", "images/shanghai/waitan2.webp", "images/shanghai/waitan3.webp", "images/shanghai/waitan4.webp", "images/shanghai/waitan5.webp", "images/shanghai/waitan6.webp", "images/shanghai/waitan7.webp"] },
+  { "name": "静安寺", "coords": [121.4408, 31.2252], "img": ["images/shanghai/jingantemple1.webp", "images/shanghai/jingantemple2.webp", "images/shanghai/jingantemple3.webp", "images/shanghai/jingantemple4.webp", "images/shanghai/jingantemple5.webp", "images/shanghai/jingantemple6.webp", "images/shanghai/jingantemple7.webp"] },
+  { "name": "豫园", "coords": [121.4880, 31.2289], "img": ["images/shanghai/yuyuan1.webp", "images/shanghai/yuyuan2.webp", "images/shanghai/yuyuan3.webp", "images/shanghai/yuyuan4.webp", "images/shanghai/yuyuan5.webp", "images/shanghai/yuyuan6.webp", "images/shanghai/yuyuan7.webp", "images/shanghai/yuyuan8.webp", "images/shanghai/yuyuan9.webp"] }
 ]
