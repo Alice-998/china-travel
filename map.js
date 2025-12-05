@@ -194,3 +194,20 @@ const closeBtn = document.getElementById("close-btn");
 closeBtn.addEventListener("click", () => {
     photo.style.display = "none"; // 隐藏图片容器
 });
+
+// 添加ESRI卫星图图层 ==========
+const esriSat = new ol.layer.Tile({
+  source: new ol.source.XYZ({
+    url: "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+  }),
+  visible: false
+});
+map.addLayer(esriSat);
+
+// 显示卫星图 ==========
+const btn = document.getElementById("toggle-sat");
+btn.onclick = () => {
+    esriSat.setVisible(!esriSat.getVisible());
+    btn.textContent = esriSat.getVisible() ? "关闭卫星图" : "显示卫星图";
+};
+
