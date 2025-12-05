@@ -187,3 +187,10 @@ nextBtn.addEventListener('click', () => {
   currentIndex = (currentIndex + 1) % currentImages.length;
   photoImg.src = currentImages[currentIndex];
 });
+
+// 关闭按钮 ==========
+const closeBtn = document.getElementById("close-btn");
+
+closeBtn.addEventListener("click", () => {
+    photo.style.display = "none"; // 隐藏图片容器
+});
