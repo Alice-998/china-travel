@@ -11,7 +11,7 @@
   { "name": "扎龙国家级自然保护区", "coords": [124.2269, 47.2016], "img": ["images/heilongjiang/zhalong1.webp", "images/heilongjiang/zhalong2.webp", "images/heilongjiang/zhalong3.webp", "images/heilongjiang/zhalong4.webp", "images/heilongjiang/zhalong5.webp"] },
   { "name": "飞泷金山鹿苑", "coords": [129.4877, 47.4054], "img": ["images/heilongjiang/luyuan1.webp", "images/heilongjiang/luyuan2.webp", "images/heilongjiang/luyuan3.webp", "images/heilongjiang/luyuan4.webp"] },
   { "name": "五营红松林海景区", "coords": [129.2734, 48.2151], "img": ["images/heilongjiang/hongsonglin1.webp", "images/heilongjiang/hongsonglin2.webp", "images/heilongjiang/hongsonglin3.webp", "images/heilongjiang/hongsonglin4.webp", "images/heilongjiang/hongsonglin5.webp"] },
-  { "name": "金祖峰景区", "coords": [129.4153, 47.4085], "img": ["images/heilongjiang/jinzufeng1.webp", "images/heilongjiang/jinzufeng2.webp", "images/heilongjiang/jinzufeng3.webp"] },
+  { "name": "金祖峰景区", "coords": [129.4153, 47.4085], "img": ["images/heilongjiang/jinzufeng1.webp", "images/heilongjiang/jinzufeng2.webp", "images/heilongjiang/jinzufeng3.webp", "images/heilongjiang/jinzufeng4.webp", "images/heilongjiang/jinzufeng5.webp"] },
   { "name": "横道河子东北虎林园", "coords": [129.1074, 44.7926], "img": ["images/heilongjiang/tiger1.webp", "images/heilongjiang/tiger2.webp", "images/heilongjiang/tiger3.webp", "images/heilongjiang/tiger4.webp"] },
   { "name": "亚布力滑雪旅游度假区", "coords": [128.4547, 44.7751], "img": ["images/heilongjiang/yabuli1.webp", "images/heilongjiang/yabuli2.webp", "images/heilongjiang/yabuli3.webp", "images/heilongjiang/yabuli4.webp", "images/heilongjiang/yabuli5.webp", "images/heilongjiang/yabuli6.webp"] }
 ]
