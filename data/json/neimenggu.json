@@ -1,9 +1,8 @@
 [
-  { "name": "响沙湾旅游区", "coords": [109.9309, 40.2504] },
-  { "name": "成吉思汗陵旅游区", "coords": [109.8073, 39.3563] },
-  { "name": "满洲里中俄边境旅游区", "coords": [117.3519, 49.6251] },
-  { "name": "阿尔山国家森林公园", "coords": [120.3868, 47.1000] },
-  { "name": "额济纳胡杨林旅游区", "coords": [101.0783, 41.9574] },
-  { "name": "阿斯哈图石林景区", "coords": [117.4998, 43.9140] },
-  { "name": "孝庄园文化旅游区", "coords": [121.9414, 43.9345] }
+  { "name": "响沙湾旅游区", "coords": [109.9309, 40.2504], "img": ["images/neimenggu/xiangshawan1.webp", "images/neimenggu/xiangshawan2.webp", "images/neimenggu/xiangshawan3.webp", "images/neimenggu/xiangshawan4.webp"] },
+  { "name": "成吉思汗陵旅游区", "coords": [109.8073, 39.3563], "img": ["images/neimenggu/chengjisihanling1.webp", "images/neimenggu/chengjisihanling2.webp", "images/neimenggu/chengjisihanling3.webp", "images/neimenggu/chengjisihanling4.webp"] },
+  { "name": "满洲里中俄边境旅游区", "coords": [117.3519, 49.6251], "img": ["images/neimenggu/manzhouli1.webp", "images/neimenggu/manzhouli2.webp", "images/neimenggu/manzhouli3.webp", "images/neimenggu/manzhouli4.webp"] },
+  { "name": "阿尔山国家森林公园", "coords": [120.3868, 47.1000], "img": ["images/neimenggu/aershan1.webp", "images/neimenggu/aershan2.webp", "images/neimenggu/aershan3.webp", "images/neimenggu/aershan4.webp"] },
+  { "name": "额济纳胡杨林旅游区", "coords": [101.0783, 41.9574], "img": ["images/neimenggu/huyanglin1.webp", "images/neimenggu/huyanglin2.webp", "images/neimenggu/huyanglin3.webp"] },
+  { "name": "阿斯哈图石林景区", "coords": [117.4998, 43.9140], "img": ["images/neimenggu/shilin1.webp", "images/neimenggu/shilin2.webp", "images/neimenggu/shilin3.webp","images/neimenggu/shilin4.webp"] }
 ]

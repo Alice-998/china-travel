@@ -1,15 +1,14 @@
 [
-  { "name": "秦始皇兵马俑", "coords": [109.2777, 34.3883] },
-  { "name": "华清池", "coords": [109.2075, 34.3648] },
-  { "name": "大雁塔·大唐芙蓉园", "coords": [108.9696, 34.2146] },
-  { "name": "大明宫国家遗址公园", "coords": [108.9591, 34.29367] },
-  { "name": "城墙·碑林历史文化景区", "coords": [108.9437, 34.2654] },
-  { "name": "华山风景名胜区", "coords": [110.0610, 34.4913] },
-  { "name": "黄帝陵", "coords": [109.2644, 35.5870] },
-  { "name": "延安革命纪念地景区", "coords": [109.4723, 36.6087] },
-  { "name": "法门寺佛文化景区", "coords": [107.8992, 34.4407] },
-  { "name": "太白山国家森林公园", "coords": [107.8720, 34.0549] },
-  { "name": "金丝峡景区", "coords": [110.5482, 33.3555] },
-  { "name": "南宫山国家森林公园", "coords": [109.0524, 32.2442] },
-  { "name": "白云山", "coords": [110.4997, 37.9980] }
+  { "name": "秦始皇兵马俑", "coords": [109.2777, 34.3883], "img": ["images/shanxi_w/qinshihuang1.webp", "images/shanxi_w/qinshihuang2.webp", "images/shanxi_w/qinshihuang3.webp"] },
+  { "name": "华清池", "coords": [109.2075, 34.3648], "img": ["images/shanxi_w/huaqingchi1.webp", "images/shanxi_w/huaqingchi2.webp", "images/shanxi_w/huaqingchi3.webp"] },
+  { "name": "大雁塔·大唐芙蓉园", "coords": [108.9696, 34.2146], "img": ["images/shanxi_w/dayanta_datang1.webp", "images/shanxi_w/dayanta_datang2.webp", "images/shanxi_w/dayanta_datang3.webp", "images/shanxi_w/dayanta_datang4.webp", "images/shanxi_w/dayanta_datang5.webp", "images/shanxi_w/dayanta_datang6.webp", "images/shanxi_w/dayanta_datang7.webp"] },
+  { "name": "大明宫国家遗址公园", "coords": [108.9591, 34.29367], "img": ["images/shanxi_w/daminggong1.webp", "images/shanxi_w/daminggong2.webp", "images/shanxi_w/daminggong3.webp", "images/shanxi_w/daminggong4.webp", "images/shanxi_w/daminggong5.webp", "images/shanxi_w/daminggong6.webp"] },
+  { "name": "城墙·碑林历史文化景区", "coords": [108.9437, 34.2654], "img": ["images/shanxi_w/chengqiang1.webp", "images/shanxi_w/chengqiang2.webp", "images/shanxi_w/chengqiang3.webp", "images/shanxi_w/chengqiang4.webp", "images/shanxi_w/chengqiang5.webp", "images/shanxi_w/chengqiang6.webp", "images/shanxi_w/chengqiang7.webp"] },
+  { "name": "华山风景名胜区", "coords": [110.0610, 34.4913], "img": ["images/shanxi_w/huashan1.webp", "images/shanxi_w/huashan2.webp", "images/shanxi_w/huashan3.webp", "images/shanxi_w/huashan4.webp", "images/shanxi_w/huashan5.webp"] },
+  { "name": "黄帝陵", "coords": [109.2644, 35.5870], "img": ["images/shanxi_w/huangdiling1.webp", "images/shanxi_w/huangdiling2.webp", "images/shanxi_w/huangdiling3.webp"] },
+  { "name": "法门寺佛文化景区", "coords": [107.8992, 34.4407], "img": ["images/shanxi_w/famensi1.webp", "images/shanxi_w/famensi2.webp", "images/shanxi_w/famensi3.webp","images/shanxi_w/famensi4.webp"] },
+  { "name": "太白山国家森林公园", "coords": [107.8720, 34.0549], "img": ["images/shanxi_w/taibaishan1.webp", "images/shanxi_w/taibaishan2.webp", "images/shanxi_w/taibaishan3.webp", "images/shanxi_w/taibaishan4.webp", "images/shanxi_w/taibaishan5.webp"] },
+  { "name": "金丝峡景区", "coords": [110.5482, 33.3555], "img": ["images/shanxi_w/jinsixia1.webp", "images/shanxi_w/jinsixia2.webp", "images/shanxi_w/jinsixia3.webp", "images/shanxi_w/jinsixia4.webp", "images/shanxi_w/jinsixia5.webp"] },
+  { "name": "南宫山国家森林公园", "coords": [109.0524, 32.2442], "img": ["images/shanxi_w/nangongshan1.webp", "images/shanxi_w/nangongshan2.webp", "images/shanxi_w/nangongshan3.webp", "images/shanxi_w/nangongshan4.webp"] },
+  { "name": "白云山", "coords": [110.4997, 37.9980], "img": ["images/shanxi_w/baiyunshan1.webp", "images/shanxi_w/baiyunshan2.webp", "images/shanxi_w/baiyunshan3.webp", "images/shanxi_w/baiyunshan4.webp", "images/shanxi_w/baiyunshan5.webp", "images/shanxi_w/baiyunshan6.webp", "images/shanxi_w/baiyunshan7.webp"] }
 ]
