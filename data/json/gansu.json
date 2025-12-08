@@ -1,9 +1,9 @@
 [
-  { "name": "嘉峪关文物景区", "coords": [98.2192, 39.8025] },
-  { "name": "敦煌鸣沙山月牙泉景区", "coords": [94.6750, 40.0874] },
-  { "name": "阳关玉门关旅游区", "coords": [94.0555, 39.9349] },
-  { "name": "张掖七彩丹霞景区", "coords": [100.0621, 38.9705] },
-  { "name": "崆峒山风景名胜区", "coords": [106.5215, 35.5489] },
-  { "name": "麦积山风景名胜区", "coords": [106.0434, 34.3045] },
-  { "name": "炳灵寺世界文化遗产旅游区", "coords": [103.2930, 35.8871] }
+  { "name": "嘉峪关文物景区", "coords": [98.2192, 39.8025], "img": ["images/gansu/jiayuguan1.webp", "images/gansu/jiayuguan2.webp", "images/gansu/jiayuguan3.webp", "images/gansu/jiayuguan4.webp", "images/gansu/jiayuguan5.webp", "images/gansu/jiayuguan6.webp"] },
+  { "name": "敦煌鸣沙山月牙泉景区", "coords": [94.6750, 40.0874], "img": ["images/gansu/yueyaquan1.webp", "images/gansu/yueyaquan2.webp", "images/gansu/yueyaquan3.webp", "images/gansu/yueyaquan4.webp", "images/gansu/yueyaquan5.webp"] },
+  { "name": "阳关玉门关旅游区", "coords": [94.0555, 39.9349], "img": ["images/gansu/yangguan1.webp", "images/gansu/yangguan2.webp", "images/gansu/yangguan3.webp", "images/gansu/yangguan4.webp", "images/gansu/yangguan5.webp"] },
+  { "name": "张掖七彩丹霞景区", "coords": [100.0621, 38.9705], "img": ["images/gansu/qicaidanxia1.webp", "images/gansu/qicaidanxia2.webp", "images/gansu/qicaidanxia3.webp"] },
+  { "name": "崆峒山风景名胜区", "coords": [106.5215, 35.5489], "img": ["images/gansu/kongtongshan1.webp", "images/gansu/kongtongshan2.webp", "images/gansu/kongtongshan3.webp", "images/gansu/kongtongshan4.webp", "images/gansu/kongtongshan5.webp", "images/gansu/kongtongshan6.webp"] },
+  { "name": "麦积山风景名胜区", "coords": [106.0434, 34.3045], "img": ["images/gansu/maijishan1.webp", "images/gansu/maijishan2.webp", "images/gansu/maijishan3.webp", "images/gansu/maijishan4.webp", "images/gansu/maijishan5.webp", "images/gansu/maijishan6.webp"] },
+  { "name": "炳灵寺世界文化遗产旅游区", "coords": [103.2930, 35.8871], "img": ["images/gansu/binglingsi1.webp", "images/gansu/binglingsi2.webp", "images/gansu/binglingsi3.webp", "images/gansu/binglingsi4.webp", "images/gansu/binglingsi5.webp"] }
 ]
