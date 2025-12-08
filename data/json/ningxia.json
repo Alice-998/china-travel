@@ -1,7 +1,7 @@
 [
-  { "name": "镇北堡西部影城", "coords": [106.0669, 38.6151] },
-  { "name": "水洞沟旅游区", "coords": [106.5172, 38.2851] },
-  { "name": "沙坡头旅游景区", "coords": [104.9955, 37.4676] },
-  { "name": "沙湖旅游景区", "coords": [106.3545, 38.8100] },
-  { "name": "六盘山红军长征旅游区", "coords": [106.1887, 35.6676] }
+  { "name": "镇北堡西部影城", "coords": [106.0669, 38.6151], "img": ["images/ningxia/zhenbeibao1.webp", "images/ningxia/zhenbeibao2.webp", "images/ningxia/zhenbeibao3.webp"] },
+  { "name": "水洞沟旅游区", "coords": [106.5172, 38.2851], "img": ["images/ningxia/shuidonggou1.webp", "images/ningxia/shuidonggou2.webp", "images/ningxia/shuidonggou3.webp", "images/ningxia/shuidonggou4.webp"] },
+  { "name": "沙坡头旅游景区", "coords": [104.9955, 37.4676], "img": ["images/ningxia/shapotou1.webp", "images/ningxia/shapotou2.webp", "images/ningxia/shapotou3.webp", "images/ningxia/shapotou4.webp", "images/ningxia/shapotou5.webp"] },
+  { "name": "沙湖旅游景区", "coords": [106.3545, 38.8100], "img": ["images/ningxia/shahu1.webp", "images/ningxia/shahu2.webp", "images/ningxia/shahu3.webp", "images/ningxia/shahu4.webp", "images/ningxia/shahu5.webp"] },
+  { "name": "六盘山红军长征旅游区", "coords": [106.1887, 35.6676], "img": ["images/ningxia/liupanshan1.webp", "images/ningxia/liupanshan2.webp", "images/ningxia/liupanshan3.webp"] }
 ]
