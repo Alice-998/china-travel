@@ -1,6 +1,6 @@
 [
-  { "name": "青海湖国家重点风景名胜区", "coords": [100.113, 36.8730] },
-  { "name": "塔尔寺景区", "coords": [101.5658, 36.4882] },
-  { "name": "阿咪东索景区", "coords": [100.2465, 38.1140] },
-  { "name": "互助土族故土园景区", "coords": [101.9359, 36.8348] }
+  { "name": "青海湖国家重点风景名胜区", "coords": [100.113, 36.8730], "img": ["images/qinghai/qinghaihu1.webp", "images/qinghai/qinghaihu2.webp", "images/qinghai/qinghaihu3.webp", "images/qinghai/qinghaihu4.webp", "images/qinghai/qinghaihu5.webp", "images/qinghai/qinghaihu6.webp", "images/qinghai/qinghaihu7.webp"] },
+  { "name": "塔尔寺景区", "coords": [101.5658, 36.4882], "img": ["images/qinghai/taersi1.webp", "images/qinghai/taersi2.webp", "images/qinghai/taersi3.webp", "images/qinghai/taersi4.webp", "images/qinghai/taersi5.webp", "images/qinghai/taersi6.webp"] },
+  { "name": "阿咪东索景区", "coords": [100.2465, 38.1140], "img": ["images/qinghai/amidongsuo1.webp", "images/qinghai/amidongsuo2.webp", "images/qinghai/amidongsuo3.webp", "images/qinghai/amidongsuo4.webp", "images/qinghai/amidongsuo5.webp", "images/qinghai/amidongsuo6.webp", "images/qinghai/amidongsuo7.webp"] },
+  { "name": "互助土族故土园景区", "coords": [101.9359, 36.8348], "img": ["images/qinghai/tuzu1.webp", "images/qinghai/tuzu2.webp", "images/qinghai/tuzu3.webp", "images/qinghai/tuzu4.webp"] }
 ]
