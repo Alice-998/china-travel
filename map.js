@@ -189,6 +189,7 @@ nextBtn.addEventListener('click', () => {
   photoImg.src = currentImages[currentIndex];
 });
 
+
 // 关闭按钮 ==========
 const closeBtn = document.getElementById("close-btn");
 
@@ -215,4 +216,26 @@ btn.onclick = () => {
     esriSat.setVisible(!esriSat.getVisible());
     btn.textContent = esriSat.getVisible() ? "关闭卫星图" : "显示卫星图";
 };
+
+// 左右键控制图片切换 + 空格键关闭地图框
+document.addEventListener("keydown", (e) => {
+  if (currentImages.length === 0) return;
+
+  // 左方向键 ←
+  if (e.key === "ArrowLeft") {
+    currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+    photoImg.src = currentImages[currentIndex];
+  }
+
+  // 右方向键 →
+  if (e.key === "ArrowRight") {
+    currentIndex = (currentIndex + 1) % currentImages.length;
+    photoImg.src = currentImages[currentIndex];
+  }
+
+  // 空格键关闭图片框
+  if (e.code === "Space") {
+    photo.style.display = "none";
+  }
+});
 
