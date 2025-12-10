@@ -1,12 +1,12 @@
 [
-  { "name": "云冈石窟", "coords": [113.1305, 40.1124] },
-  { "name": "五台山风景名胜区", "coords": [113.5602, 38.9925] },
-  { "name": "雁门关景区", "coords": [112.8615, 39.1862] },
-  { "name": "平遥古城", "coords": [112.1776, 37.2032] },
-  { "name": "乔家大院文化园区", "coords": [112.4311, 37.4054] },
-  { "name": "介休绵山风景区", "coords": [111.9589, 36.9027] },
-  { "name": "皇城相府生态文化旅游区", "coords": [112.5776, 35.5168] },
-  { "name": "洪洞大槐树寻根祭祖园景区", "coords": [111.6694, 36.2714] },
-  { "name": "云丘山景区", "coords": [111.0155, 35.7454] },
-  { "name": "太行山大峡谷八泉峡景区", "coords": [113.5361, 35.9722] }
+  { "name": "云冈石窟", "coords": [113.1305, 40.1124], "img": ["images/shanxi_e/yungangshiku1.webp", "images/shanxi_e/yungangshiku2.webp", "images/shanxi_e/yungangshiku3.webp", "images/shanxi_e/yungangshiku4.webp"] },
+  { "name": "五台山风景名胜区", "coords": [113.5602, 38.9925], "img": ["images/shanxi_e/wutaishan1.webp", "images/shanxi_e/wutaishan2.webp", "images/shanxi_e/wutaishan3.webp", "images/shanxi_e/wutaishan4.webp", "images/shanxi_e/wutaishan5.webp"] },
+  { "name": "雁门关景区", "coords": [112.8615, 39.1862], "img": ["images/shanxi_e/yanmenguan1.webp", "images/shanxi_e/yanmenguan2.webp", "images/shanxi_e/yanmenguan3.webp", "images/shanxi_e/yanmenguan4.webp"] },
+  { "name": "平遥古城", "coords": [112.1776, 37.2032], "img": ["images/shanxi_e/pingyaogucheng1.webp", "images/shanxi_e/pingyaogucheng2.webp", "images/shanxi_e/pingyaogucheng3.webp", "images/shanxi_e/pingyaogucheng4.webp", "images/shanxi_e/pingyaogucheng5.webp", "images/shanxi_e/pingyaogucheng6.webp"] },
+  { "name": "乔家大院文化园区", "coords": [112.4311, 37.4054], "img": ["images/shanxi_e/qiaojiadayuan1.webp", "images/shanxi_e/qiaojiadayuan2.webp", "images/shanxi_e/qiaojiadayuan3.webp", "images/shanxi_e/qiaojiadayuan4.webp"] },
+  { "name": "介休绵山风景区", "coords": [111.9589, 36.9027], "img": ["images/shanxi_e/jiexiumianshan1.webp", "images/shanxi_e/jiexiumianshan2.webp", "images/shanxi_e/jiexiumianshan3.webp", "images/shanxi_e/jiexiumianshan4.webp", "images/shanxi_e/jiexiumianshan5.webp", "images/shanxi_e/jiexiumianshan6.webp"] },
+  { "name": "皇城相府生态文化旅游区", "coords": [112.5776, 35.5168], "img": ["images/shanxi_e/huangchengxiangfu1.webp", "images/shanxi_e/huangchengxiangfu2.webp", "images/shanxi_e/huangchengxiangfu3.webp", "images/shanxi_e/huangchengxiangfu4.webp", "images/shanxi_e/huangchengxiangfu5.webp", "images/shanxi_e/huangchengxiangfu6.webp"] },
+  { "name": "洪洞大槐树寻根祭祖园景区", "coords": [111.6694, 36.2714], "img": ["images/shanxi_e/dahuaishu1.webp", "images/shanxi_e/dahuaishu2.webp", "images/shanxi_e/dahuaishu3.webp", "images/shanxi_e/dahuaishu4.webp"] },
+  { "name": "云丘山景区", "coords": [111.0155, 35.7454], "img": ["images/shanxi_e/yunqiushan1.webp", "images/shanxi_e/yunqiushan2.webp", "images/shanxi_e/yunqiushan3.webp", "images/shanxi_e/yunqiushan4.webp", "images/shanxi_e/yunqiushan5.webp"] },
+  { "name": "太行山大峡谷八泉峡景区", "coords": [113.5361, 35.9722], "img": ["images/shanxi_e/baquanxia1.webp", "images/shanxi_e/baquanxia2.webp", "images/shanxi_e/baquanxia3.webp", "images/shanxi_e/baquanxia4.webp", "images/shanxi_e/baquanxia5.webp", "images/shanxi_e/baquanxia6.webp"] }
 ]
