@@ -1,7 +1,7 @@
 [
-  { "name": "布达拉宫景区", "coords": [91.1170, 29.6574] },
-  { "name": "大昭寺", "coords": [91.1312, 29.6531] },
-  { "name": "巴松措景区", "coords": [94.0076, 30.0305] },
-  { "name": "雅鲁藏布大峡谷旅游景区", "coords": [94.9359, 29.6162] },
-  { "name": "扎什伦布寺景区", "coords": [88.8699, 29.2689] }
+  { "name": "布达拉宫景区", "coords": [91.1170, 29.6574], "img": ["images/xizang/budalagong1.webp", "images/xizang/budalagong2.webp"] },
+  { "name": "大昭寺", "coords": [91.1312, 29.6531], "img": ["images/xizang/dazhaosi1.webp", "images/xizang/dazhaosi2.webp"] },
+  { "name": "巴松措景区", "coords": [94.0076, 30.0305], "img": ["images/xizang/basongcuo1.webp", "images/xizang/basongcuo2.webp", "images/xizang/basongcuo3.webp", "images/xizang/basongcuo4.webp", "images/xizang/basongcuo5.webp", "images/xizang/basongcuo6.webp"] },
+  { "name": "雅鲁藏布大峡谷旅游景区", "coords": [94.9359, 29.6162], "img": ["images/xizang/daxiagu1.webp", "images/xizang/daxiagu2.webp", "images/xizang/daxiagu3.webp", "images/xizang/daxiagu4.webp", "images/xizang/daxiagu5.webp"] },
+  { "name": "扎什伦布寺景区", "coords": [88.8699, 29.2689], "img": ["images/xizang/zhashilunbusi1.webp", "images/xizang/zhashilunbusi2.webp", "images/xizang/zhashilunbusi3.webp", "images/xizang/zhashilunbusi4.webp", "images/xizang/zhashilunbusi5.webp"] }
 ]
