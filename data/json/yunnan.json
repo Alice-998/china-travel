@@ -1,13 +1,13 @@
 [
-  { "name": "石林风景区", "coords": [103.3237, 24.8160] },
-  { "name": "玉龙雪山国家级风景名胜区", "coords": [100.1802, 27.1514] },
-  { "name": "丽江古城景区", "coords": [100.2330, 26.8743] },
-  { "name": "滇池", "coords": [102.7235, 24.8441] },
-  { "name": "洱海", "coords": [100.1884, 25.7832] },
-  { "name": "大理古城", "coords": [100.1628, 25.6982] },
-  { "name": "崇圣寺三塔文化旅游区", "coords": [100.1423, 25.7074] },
-  { "name": "中国科学院西双版纳热带植物园", "coords": [101.2726, 21.9168] },
-  { "name": "野象谷景区", "coords": [100.8534, 22.1736] },
-  { "name": "普达措国家公园", "coords": [99.9014, 27.9131] },
-  { "name": "腾冲市热海风景区", "coords": [98.4382, 24.9506] }
+  { "name": "石林风景区", "coords": [103.3237, 24.8160], "img": ["images/yunnan/shilin1.webp", "images/yunnan/shilin2.webp", "images/yunnan/shilin3.webp"] },
+  { "name": "玉龙雪山国家级风景名胜区", "coords": [100.1802, 27.1514], "img": ["images/yunnan/yulongxueshan1.webp", "images/yunnan/yulongxueshan2.webp", "images/yunnan/yulongxueshan3.webp"] },
+  { "name": "丽江古城景区", "coords": [100.2330, 26.8743], "img": ["images/yunnan/lijiang1.webp", "images/yunnan/lijiang2.webp", "images/yunnan/lijiang3.webp", "images/yunnan/lijiang4.webp", "images/yunnan/lijiang5.webp"] },
+  { "name": "滇池", "coords": [102.7235, 24.8441], "img": ["images/yunnan/dianchi1.webp", "images/yunnan/dianchi2.webp", "images/yunnan/dianchi3.webp", "images/yunnan/dianchi4.webp", "images/yunnan/dianchi5.webp", "images/yunnan/dianchi6.webp"] },
+  { "name": "洱海", "coords": [100.1884, 25.7832], "img": ["images/yunnan/erhai1.webp", "images/yunnan/erhai2.webp", "images/yunnan/erhai3.webp", "images/yunnan/erhai4.webp", "images/yunnan/erhai5.webp"] },
+  { "name": "大理古城", "coords": [100.1628, 25.6982], "img": ["images/yunnan/dali1.webp", "images/yunnan/dali2.webp", "images/yunnan/dali3.webp", "images/yunnan/dali4.webp", "images/yunnan/dali5.webp"] },
+  { "name": "崇圣寺三塔文化旅游区", "coords": [100.1423, 25.7074], "img": ["images/yunnan/santa1.webp", "images/yunnan/santa2.webp", "images/yunnan/santa3.webp", "images/yunnan/santa4.webp"] },
+  { "name": "中国科学院西双版纳热带植物园", "coords": [101.2726, 21.9168], "img": ["images/yunnan/banna1.webp", "images/yunnan/banna2.webp", "images/yunnan/banna3.webp", "images/yunnan/banna4.webp", "images/yunnan/banna5.webp"] },
+  { "name": "野象谷景区", "coords": [100.8534, 22.1736], "img": ["images/yunnan/yexianggu1.webp", "images/yunnan/yexianggu2.webp", "images/yunnan/yexianggu3.webp", "images/yunnan/yexianggu4.webp"] },
+  { "name": "普达措国家公园", "coords": [99.9014, 27.9131], "img": ["images/yunnan/pudacuo1.webp", "images/yunnan/pudacuo2.webp", "images/yunnan/pudacuo3.webp", "images/yunnan/pudacuo4.webp", "images/yunnan/pudacuo5.webp"] },
+  { "name": "腾冲市热海风景区", "coords": [98.4382, 24.9506], "img": ["images/yunnan/rehai1.webp", "images/yunnan/rehai2.webp", "images/yunnan/rehai3.webp", "images/yunnan/rehai4.webp", "images/yunnan/rehai5.webp", "images/yunnan/rehai6.webp"] }
 ]
