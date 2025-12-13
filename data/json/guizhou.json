@@ -1,11 +1,11 @@
 [
-  { "name": "黄果树大瀑布景区", "coords": [105.6655, 25.9927] },
-  { "name": "龙宫景区", "coords": [105.8799, 26.1097] },
-  { "name": "百里杜鹃景区", "coords": [105.9137, 27.2156] },
-  { "name": "织金洞景区", "coords": [105.8748, 26.7763] },
-  { "name": "荔波樟江风景名胜区", "coords": [107.7549, 25.2820] },
-  { "name": "青岩古镇景区", "coords": [106.6834, 26.3342] },
-  { "name": "梵净山风景区", "coords": [108.6932, 27.9107] },
-  { "name": "镇远古城旅游景区", "coords": [108.4168, 27.0504] },
-  { "name": "赤水丹霞旅游区", "coords": [105.9449, 28.4038] }
+  { "name": "黄果树大瀑布景区", "coords": [105.6655, 25.9927], "img": ["images/guizhou/huangguoshu1.webp", "images/guizhou/huangguoshu2.webp"] },
+  { "name": "龙宫景区", "coords": [105.8799, 26.1097], "img": ["images/guizhou/longgong1.webp", "images/guizhou/longgong2.webp", "images/guizhou/longgong3.webp", "images/guizhou/longgong4.webp", "images/guizhou/longgong5.webp"] },
+  { "name": "百里杜鹃景区", "coords": [105.9137, 27.2156], "img": ["images/guizhou/dujuan1.webp", "images/guizhou/dujuan2.webp", "images/guizhou/dujuan3.webp", "images/guizhou/dujuan4.webp", "images/guizhou/dujuan5.webp"] },
+  { "name": "织金洞景区", "coords": [105.8748, 26.7763], "img": ["images/guizhou/zhijindong1.webp", "images/guizhou/zhijindong2.webp", "images/guizhou/zhijindong3.webp", "images/guizhou/zhijindong4.webp", "images/guizhou/zhijindong5.webp", "images/guizhou/zhijindong6.webp", "images/guizhou/zhijindong7.webp", "images/guizhou/zhijindong8.webp"] },
+  { "name": "荔波樟江风景名胜区", "coords": [107.7549, 25.2820], "img": ["images/guizhou/zhangjiang1.webp", "images/guizhou/zhangjiang2.webp", "images/guizhou/zhangjiang3.webp", "images/guizhou/zhangjiang4.webp", "images/guizhou/zhangjiang5.webp", "images/guizhou/zhangjiang6.webp"] },
+  { "name": "青岩古镇景区", "coords": [106.6834, 26.3342], "img": ["images/guizhou/qingyanguzhen1.webp", "images/guizhou/qingyanguzhen2.webp", "images/guizhou/qingyanguzhen3.webp", "images/guizhou/qingyanguzhen4.webp"] },
+  { "name": "梵净山风景区", "coords": [108.6932, 27.9107], "img": ["images/guizhou/fanjingshan1.webp", "images/guizhou/fanjingshan2.webp", "images/guizhou/fanjingshan3.webp", "images/guizhou/fanjingshan4.webp", "images/guizhou/fanjingshan5.webp", "images/guizhou/fanjingshan6.webp"] },
+  { "name": "镇远古城旅游景区", "coords": [108.4168, 27.0504], "img": ["images/guizhou/zhenyuangucheng1.webp", "images/guizhou/zhenyuangucheng2.webp", "images/guizhou/zhenyuangucheng3.webp", "images/guizhou/zhenyuangucheng4.webp", "images/guizhou/zhenyuangucheng5.webp", "images/guizhou/zhenyuangucheng6.webp", "images/guizhou/zhenyuangucheng7.webp"] },
+  { "name": "赤水丹霞旅游区", "coords": [105.9449, 28.4038], "img": ["images/guizhou/chishuidanxia1.webp", "images/guizhou/chishuidanxia2.webp", "images/guizhou/chishuidanxia3.webp", "images/guizhou/chishuidanxia4.webp", "images/guizhou/chishuidanxia5.webp", "images/guizhou/chishuidanxia6.webp", "images/guizhou/chishuidanxia7.webp"] }
 ]
